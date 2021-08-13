@@ -226,3 +226,26 @@ main {
   line-height: 1.5rem;
   color: var(--warm-black);
 }
+.main-product-detail {
+  width: 100%;
+  background-color: var(--warm-black);
+  padding-top: 64px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main-product-detail div {
+  width: 90%;
+  margin: 0 auto;
+}
+.main-product-detail h2 {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  color: var(--just-white);
+  margin-bottom: 24px;
+}
+
+.main-product-detail p {
+  font-size: 1.4rem;
+  color: #808080;
+}
