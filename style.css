@@ -227,6 +227,7 @@ main {
   color: var(--warm-black);
 }
 .main-product-detail {
+  position: relative;
   width: 100%;
   background-color: var(--warm-black);
   padding-top: 64px;
@@ -248,4 +249,41 @@ main {
 .main-product-detail p {
   font-size: 1.4rem;
   color: #808080;
+}
+
+.product-card--container {
+  width: 100%;
+  background-color: var(--warm-black);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.product-detail--card {
+  background-color: #282623;
+  padding: 16px;
+  padding-right: 20px;
+}
+.clock {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 2px;
+  background-image: url("./assets/icons/clock.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product--card-title {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  color: var(--just-white);
+  margin-top: 12px;
+}
+.product--card-body {
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 18px;
+  margin-top: 10px;
 }
